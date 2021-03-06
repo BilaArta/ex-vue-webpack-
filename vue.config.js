@@ -1,11 +1,8 @@
 const path = require('path');  
 
 module.exports = {
-  // publicPath: process.env.NODE_ENV === 'production'
-  //   ? '/vue-cli-ghpages/'
-  //   : '/',
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/'
+    ? '/vue-cli-ghpages/'
     : '/',
   transpileDependencies: [
     'vuetify'
