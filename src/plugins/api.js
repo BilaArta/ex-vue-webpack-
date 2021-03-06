@@ -1,7 +1,10 @@
 import axios from "axios";
 // import dotenv from 'dotenv'
-const userURL = "http://localhost:8000/user/";
-const movieURL = "http://localhost:8000/movie/";
+// const userURL = "http://"+location.hostname+":8081/user/";
+// const movieURL = "http://"+location.hostname+":8081/movie/";
+const urlApi = "https://recsys-api-mongo.herokuapp.com/"
+const userURL = urlApi+"user/";
+const movieURL = urlApi+"movie/";
 
 
 class postUsers {
